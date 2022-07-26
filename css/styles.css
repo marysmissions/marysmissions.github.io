@@ -11310,9 +11310,9 @@ section {
 	cursor:pointer;
 	color:#333333;
 	font-family:Arial;
-	font-size:22px;
+	font-size:14px;
 	font-weight:bold;
-	padding:11px 37px;
+	padding:10px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffee66;
 }
@@ -11324,5 +11324,3 @@ section {
 	position:relative;
 	top:1px;
 }
-
-     
