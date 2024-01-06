@@ -31,4 +31,13 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // This is to obfuscate the email address to prevent scraping/spamming
+    var p1 = "(920) ";
+    var p2 = "532-";
+    var p3 = "0713";
+    document.getElementById("phone1").textContent = p1;
+    document.getElementById("phone2").textContent = p2;
+    document.getElementById("phone3").textContent = p3;
+
+
 });
