@@ -11300,6 +11300,20 @@ section {
   padding-bottom: 4rem;
 }
 
+.amazonBtn{
+	background-color:#febd69;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+    margin-right: 4px;
+}
 .donateBtn {
 	background-color:#ffec64;
 	border-radius:6px;
@@ -11312,6 +11326,13 @@ section {
 	padding:10px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffee66;
+}
+.amazonBtn:hover {
+    color:#333;
+}
+.amazonBtn:active {
+	position:relative;
+	top:1px;
 }
 .donateBtn:hover {
     color:#333;
