@@ -11393,7 +11393,6 @@ section {
     padding: 10px 20px; /* Adjust padding if necessary */
     text-decoration: none;
     margin: 0 5px; /* Adjust margins if necessary */
-    text-shadow: 0px 1px 0px #ffee66;
 }
 
 .wishlistBtn.walmart {
@@ -11441,7 +11440,5 @@ section {
 
 .mission-card h3 i {
   margin-right: 10px;
-  /* You can use font-awesome or bootstrap icons here */
 }
 
-/* Add any additional styling you'd like for the mission cards */
