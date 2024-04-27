@@ -11341,6 +11341,19 @@ section {
 	position:relative;
 	top:1px;
 }
+.bigamazonBtn{
+	background-color:#febd69;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:1.5em;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
 .bigdonateBtn {
 	background-color:#ffec64;
 	border-radius:6px;
@@ -11348,7 +11361,7 @@ section {
 	cursor:pointer;
 	color:#333333;
 	font-family:Arial;
-	font-size:2em;
+	font-size:1.5em;
 	font-weight:bold;
 	padding:10px 20px;
 	text-decoration:none;
@@ -11361,3 +11374,74 @@ section {
 	position:relative;
 	top:1px;
 }
+.wishlist-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds space between the buttons */
+}
+
+.wishlistBtn {
+    background-color: #febd69; /* Amazon orange, change if needed */
+    color: white;
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 1.5em; /* Matches the size of the 'Donate' button */
+    font-weight: bold;
+    padding: 10px 20px; /* Adjust padding if necessary */
+    text-decoration: none;
+    margin: 0 5px; /* Adjust margins if necessary */
+    text-shadow: 0px 1px 0px #ffee66;
+}
+
+.wishlistBtn.walmart {
+    background-color: #ADD8E6; /* Walmart soft blue */
+}
+
+.wishlistBtn:hover {
+    color: #333;
+}
+
+.wishlistBtn:active {
+    position: relative;
+    top: 1px;
+}
+
+.caption-help, .wishlist-caption {
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+}
+
+.wishlist-caption {
+    font-size: 16px;
+    margin-bottom: 20px; /* Adjust spacing under the caption */
+}
+
+.mission-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.mission-card h3 {
+  color: #333;
+  font-size: 1.75rem;
+}
+
+.mission-card h3 i {
+  margin-right: 10px;
+  /* You can use font-awesome or bootstrap icons here */
+}
+
+/* Add any additional styling you'd like for the mission cards */
