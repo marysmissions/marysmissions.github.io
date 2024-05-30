@@ -11419,7 +11419,7 @@ section {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotate(-5deg);
     background: rgba(255, 255, 255, 0.2);
     padding: 5px;
     border-radius: 3px;
