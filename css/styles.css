@@ -11473,8 +11473,8 @@ section {
 
 .fixed-img {
   width: 100%;
-  max-width: 420px;   /* was 350 */
-  height: 260px;      /* was 220 */
+  max-width: 420px;
+  height: 320px;   
   object-fit: cover;
   display: block;
   margin: 0 auto;
