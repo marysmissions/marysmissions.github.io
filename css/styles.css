@@ -11462,3 +11462,23 @@ section {
   margin-right: 10px;
 }
 
+.mission-img {
+  width: 100%;
+  max-width: 350px;
+  height: 220px;        /* tuned to fit both aspect ratios */
+  object-fit: cover;   /* trims excess instead of shrinking */
+  display: block;
+  margin: 0 auto;
+}
+
+.fixed-img {
+  width: 100%;
+  max-width: 420px;   /* was 350 */
+  height: 260px;      /* was 220 */
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
