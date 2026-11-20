@@ -11490,10 +11490,7 @@ section {
 
 .appeal-eyebrow {
   margin: 0 0 4px;
-  font-family: Arial, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #ff3334;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6c757d;
 }
